@@ -1,0 +1,26 @@
+{
+  "name": "myPageResume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node express.js",
+    "heroku-postbuild": "cd client && npm install --production=false && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NovoseletskiyVadim/myPageResume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NovoseletskiyVadim/myPageResume/issues"
+  },
+  "homepage": "https://github.com/NovoseletskiyVadim/myPageResume#readme"
+}
