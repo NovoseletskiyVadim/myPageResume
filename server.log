@@ -22,3 +22,8 @@
 16:18:56 GET /static/media/logo.5d5d9eef.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
 21:59:33 GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
 21:59:33 GET /favicon.ico Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
+22:4:20 GET / Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
+22:4:20 GET /static/css/main.3c7c26f8.chunk.css Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
+22:4:20 GET /static/js/2.d605526e.chunk.js Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
+22:4:20 GET /static/js/main.a4b857db.chunk.js Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0
+22:4:20 GET /static/media/logo.5d5d9eef.svg Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0

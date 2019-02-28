@@ -6,7 +6,9 @@ const bodyParser = require("body-parser");
 
 
 // создаем обьект рпилодения 
-const app=express();
+const app=express(),
+http = require('http').Server(app),
+port = process.env.PORT || 5000;
 
 // создаем парсер для данных в формате json
 const jsonParser = express.json();
@@ -38,11 +40,15 @@ app.get('*', function(req, res){
 });
 
 
-app.use("/home/foo/bar",function (request, response) {
-    response.sendStatus(404).send(`ресурс не найден`);
-  });
+// app.use("/home/foo/bar",function (request, response) {
+//     response.sendStatus(404).send(`ресурс не найден`);
+//   });
 
 
-app.listen(3000, ()=>{
-    console.log("Сервер начал слушать ...");
-})
+http.listen(port, function () {
+    console.log(`Server running at localhost:${port}`);
+});
+
+// app.listen(3000, ()=>{
+//     console.log("Сервер начал слушать ...");
+// })
