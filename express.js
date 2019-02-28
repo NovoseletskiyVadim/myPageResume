@@ -28,13 +28,13 @@ app.use(function(request, response, next){
     next();
 });
 
-app.use(express.static(__dirname + "/mypage/build"));
+app.use(express.static(__dirname + "/client/build"));
 
 
 app.get('*', function(req, res){
 
     // отправляем ответ
-    res.sendFile(__dirname +'/mypage/build/index.html');
+    res.sendFile(__dirname +'/client/build/index.html');
 });
 
 
